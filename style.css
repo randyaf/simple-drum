@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 100vh;
+    background-color: brown;
+    font-size: 6rem;
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
